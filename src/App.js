@@ -1,12 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import logo from "./logo.svg";
+
+import Balance from './components/Balance';
+import ChartBar from './components/ChartBar';
 
 function App() {
     return (
-      <div>
-        <h1 className="text-3xl font-bold underline">
-          Hello world!
-        </h1>
+      <div className="min-h-screen flex flex-col justify-center items-center">
+        <div className="w-5/12">
+          <Balance />
+          <ChartBar />        
+        </div>
       </div>
     );
 }

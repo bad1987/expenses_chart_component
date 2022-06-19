@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/expenses_chart_component/static/css/main.0534f6c3.css",
-    "main.js": "/expenses_chart_component/static/js/main.a4d04bd9.js",
+    "main.css": "/expenses_chart_component/static/css/main.3677eca3.css",
+    "main.js": "/expenses_chart_component/static/js/main.395951d6.js",
     "static/js/787.762d3a69.chunk.js": "/expenses_chart_component/static/js/787.762d3a69.chunk.js",
     "index.html": "/expenses_chart_component/index.html",
     "static/media/logo.svg": "/expenses_chart_component/static/media/logo.99d5b9138a1a64cc6858cdac9a9d3bd4.svg",
-    "main.0534f6c3.css.map": "/expenses_chart_component/static/css/main.0534f6c3.css.map",
-    "main.a4d04bd9.js.map": "/expenses_chart_component/static/js/main.a4d04bd9.js.map",
+    "main.3677eca3.css.map": "/expenses_chart_component/static/css/main.3677eca3.css.map",
+    "main.395951d6.js.map": "/expenses_chart_component/static/js/main.395951d6.js.map",
     "787.762d3a69.chunk.js.map": "/expenses_chart_component/static/js/787.762d3a69.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0534f6c3.css",
-    "static/js/main.a4d04bd9.js"
+    "static/css/main.3677eca3.css",
+    "static/js/main.395951d6.js"
   ]
 }

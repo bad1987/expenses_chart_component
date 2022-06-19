@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../images/logo.svg'
 
 
 export default function Balance(){
@@ -10,7 +11,7 @@ export default function Balance(){
         <div className="text-4xl font-bold">$921.48</div>
       </div>
       <div className="shrink-0">
-        <img src='images/logo.svg' className="h-12 w-12" alt="Expenses chart logo" />
+        <img src={logo} className="h-12 w-12" alt="Expenses chart logo" />
       </div>
     </div>
 	);

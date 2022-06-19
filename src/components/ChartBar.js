@@ -4,25 +4,20 @@ import { getData } from '../utils/JsonUtils';
 
 export default function ChartBar(){
 
-	const [data, setData] = useState(null);
 	const [maxbar, setMaxbar] = useState(null);
 	const [bars, setBars] = useState(null);
-	const [totalAmount, setTotalAmount] = useState(0);
 
 	useEffect(()=>{
 		async function request(){
 			let jdata = await getData();
-			setData(jdata);
 			// console.log(jdata);
-			let maxB = 0, total=0;
+			let maxB = 0;
 			for(let elt of jdata){
 				if (elt.amount > maxB) {
 					maxB = elt.amount;
-					total += elt.amount;
 				}
 			}
 			setMaxbar(maxB);
-			setTotalAmount(total);
 
 			buildBars(jdata, maxB);
 		}

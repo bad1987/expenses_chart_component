@@ -51,13 +51,13 @@ export default function ChartBar(){
 			node.remove('opacity-0');
 			node.add('opacity-100');
 
-			current.add('opacity-80')
+			current.add('opacity-70')
 		} 
 		else{
 			node.remove('opacity-100');
 			node.add('opacity-0');
 
-			current.remove('opacity-80')
+			current.remove('opacity-70')
 		}
 		console.log(event.target.parentNode.firstChild.classList);
 	}

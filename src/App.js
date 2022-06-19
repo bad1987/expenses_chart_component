@@ -8,7 +8,7 @@ import ChartBar from './components/ChartBar';
 function App() {
     return (
       <div className="min-h-screen flex flex-col justify-center items-center">
-        <div className="w-5/12">
+        <div className="w-5/12 space-y-8">
           <Balance />
           <ChartBar />        
         </div>

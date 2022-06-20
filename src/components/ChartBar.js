@@ -31,7 +31,7 @@ export default function ChartBar(){
 			return (
 				<div key={index} className="flex sm:shrink-0 shrink flex-col justify-center space-y-2 cursor-pointer">
 					<div className="text-center opacity-0 text-white p-2 font-bold rounded-md bg-[#382314]">${item.amount}</div>
-      		<div style={{height: item.amount * scale}} className={myClassName} onClick={handleClick}></div>	
+      		<div style={{height: item.amount * scale}} className={myClassName} onMouseLeave={handleHover} onMouseEnter={handleHover}></div>	
       		<div className="text-sm sm:text-lg sm:text-center text-[#93867B]">{item.day}</div>	
       	</div>
 			);
@@ -39,7 +39,7 @@ export default function ChartBar(){
 		setBars(html);
 	};
 
-	const handleClick = event => {
+	const handleHover = event => {
 		const node =event.target.parentNode.firstChild.classList;
 		const current = event.target.classList;
 		if (node.contains('opacity-0')) {
@@ -79,6 +79,7 @@ export default function ChartBar(){
     </div>
 	)
 }
+
 
 const styles = {
 	dividerStyle: {

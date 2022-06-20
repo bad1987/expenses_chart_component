@@ -6,8 +6,8 @@ import ChartBar from './components/ChartBar';
 
 function App() {
     return (
-      <div className="min-h-screen flex flex-col justify-center items-center">
-        <div className="w-full xl:w-6/12 2xl:w-5/12 lg:w-8/12 md:my-8 space-y-8">
+      <div className="sm:min-h-screen w-screen flex flex-col sm:justify-center sm:items-center">
+        <div className="flex flex-col mx-4 my-8 space-y-8">
           <Balance />
           <ChartBar />        
         </div>

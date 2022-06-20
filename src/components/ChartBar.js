@@ -58,7 +58,7 @@ export default function ChartBar(){
 	}
 
 	return (
-		<div className="p-5 shrink shadow-lg rounded-lg sm:rounded-3xl flex flex-col">
+		<div className="p-5 shrink shadow-lg bg-white rounded-lg sm:rounded-3xl flex flex-col">
       <h1 className="text-[#382314] font-bold sm:text-4xl text-2xl">Spending - Last 7 days</h1>
       <div className="flex text-[0.6rem] sm:text-base items-end sm:space-x-4">
       	{bars &&
